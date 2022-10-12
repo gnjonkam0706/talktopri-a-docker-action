@@ -2,7 +2,7 @@ name: A simple Docker action
 
 on:
   pull_request:
-    types: [opened, edited, labeled]
+    types: [opened, edited]
 
 jobs:
   user-and-time:
